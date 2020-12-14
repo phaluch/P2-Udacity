@@ -1,0 +1,12 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Udacity Initial Cost Estimate,Amazon Virtual Private Cloud (VPC),0,37.35,448.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Udacity ,Amazon EC2,0,2221.788676,26661.46,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), DT Inbound: Internet (20 TB per month), DT Outbound: Amazon CloudFront (20 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (20 TB per month), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t3a.nano), Pricing strategy (On-Demand)"
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,542.03,6504.36,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,182.09,2185.08,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (20 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,4762.96,57155.52,USD,"Quantity (1), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage volume (General Purpose SSD (gp2)), Storage amount (20 TB per month), Instance type (db.t3.small)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2219.618676,26635.42,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (Daily), Amount changed per snapshot (3 GB), DT Inbound: Internet (20 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (20 TB per month), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t3a.nano), Pricing strategy (On-Demand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

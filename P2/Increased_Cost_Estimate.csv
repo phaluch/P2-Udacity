@@ -1,0 +1,15 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Udacity Initial Cost Estimate,Amazon Virtual Private Cloud (VPC),0,37.35,448.20,USD,Number of NAT Gateways (1)
+"My Estimate,US East (N. Virginia),Udacity ,Amazon EC2,0,3809.8900000000003,45718.68,USD,""Operating system (Linux), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (100 GB), Snapshot Frequency (Hourly), Amount changed per snapshot (5 GB), DT Inbound: Internet (20 TB per month), DT Outbound: Amazon CloudFront (20 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (20 TB per month), Provisioning IOPS (1000), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 1, Peak: 4, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (m4.2xlarge), Pricing strategy (All Reserved 1 Year  None upfront)"""
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,1084.05,13008.60,USD,Number of Application Load Balancers (2)
+"My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,1037.79,12453.48,USD,""Number of Classic Load Balancers (3), Processed bytes per CLB (40 TB per month)"""
+"My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,8305.119999999999,99661.44,USD,""Quantity (1), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (1000), Storage amount (20 TB per month), Instance type (db.m5.2xlarge), Additional backup storage (20 TB)"""
+"My Estimate,US East (N. Virginia),Udacity ,Amazon EC2,0,3809.8900000000003,45718.68,USD,""Operating system (Linux), Storage for each EC2 instance (Provisioned IOPS SSD (io1)), Storage amount (100 GB), Snapshot Frequency (Hourly), Amount changed per snapshot (5 GB), DT Inbound: Internet (20 TB per month), DT Outbound: Amazon CloudFront (20 TB per month), DT Outbound: Internet (20 TB per month), DT Intra-Region: (20 TB per month), Provisioning IOPS (1000), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 1, Peak: 4, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (m4.2xlarge), Pricing strategy (All Reserved 1 Year  None upfront)"""
+
+
+
+Acknowledgement
+* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.
+
+EXPLANATION
+Increased the number of load balancers, so as to better manage traffic. Also changed EC2 instances to reserved, so we can guarantee a more reliable service. Overall, increased capacity of EC2 and RDS, as well as max. Connections. Storage is now IOPS optimized, as well as all EC2s.

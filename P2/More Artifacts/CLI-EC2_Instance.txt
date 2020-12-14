@@ -1,0 +1,8 @@
+Create:
+
+aws ec2 run-instances --image-id ami-xxxxxxxx --count 1 --instance-type t2.micro --key-name [PEM file name] --security-group-ids sg-xxxxxxxx --subnet-id subnet-xxxxxxxx
+Security Group: VPC>SecurityGroup
+Subnets: VPC>Subnets
+
+Delete:
+aws ec2 terminate-instances --instance-ids i-xxxxxxxx

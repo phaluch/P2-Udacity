@@ -1,0 +1,5 @@
+Create:
+aws rds create-db-instance --allocated-storage 20 --db-instance-class db.t2.micro --db-instance-identifier myinstancename --engine postgres --master-username admin --master-user-password udacitymaster --no-publicly-accessible
+
+Delete:
+aws rds delete-db-instance --db-instance-identifier myinstancename --skip-final-snapshot
